@@ -1,0 +1,29 @@
+.boton-musica {
+  position: fixed;
+  right: max(15px, calc(50% - 200px));
+  bottom: 15px;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: 50%;
+  background: rgba(112,71,138,.94);
+  color: #fff;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(80,45,100,.3);
+}
+
+.boton-musica.sonando {
+  animation: girarMusica 3s linear infinite;
+}
+
+@keyframes girarMusica {
+  0% { box-shadow: 0 0 0 0 rgba(112,71,138,.25); }
+  50% { box-shadow: 0 0 0 9px rgba(112,71,138,.08); }
+  100% { box-shadow: 0 0 0 0 rgba(112,71,138,.25); }
+}

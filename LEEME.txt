@@ -1,0 +1,22 @@
+INVITACIÓN MIS XV - MARÍA JOSÉ VERA MORENO
+
+Imágenes de plantilla ya incluidas en public/plantillas/
+
+MAPA DE IMÁGENES:
+- portada-castillo.png -> portada inicial
+- plantilla-5.png -> bienvenida / Mis XV
+- plantilla-1.png -> Mis padres
+- plantilla-3.png -> Mi historia (las 3 fotos se colocan encima de los marcos)
+- plantilla-4.png -> Lugar / Antiguas Palmeras
+- plantilla-6.png -> Lluvia de sobres y cierre
+
+Datos:
+María José Vera Moreno
+Sábado 26 de septiembre de 2026
+8:00 p. m.
+Antiguas Palmeras
+Padres: El Loco y Martha Bibiana Moreno
+
+Para ejecutar:
+npm.cmd install
+npm.cmd run dev
